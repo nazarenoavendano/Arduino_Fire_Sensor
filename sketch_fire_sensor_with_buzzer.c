@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  int sensorValue = analogRead(pinFireSensor);
+  sensorValue = analogRead(pinFireSensor);
 
   Serial.print("Valor del sensor: ");
   Serial.println(sensorValue);
